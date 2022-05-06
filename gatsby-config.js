@@ -3,5 +3,5 @@ module.exports = {
     title: `Ursa Ventures`,
     siteUrl: `https://www.yourdomain.tld`
   },
-  plugins: ["gatsby-plugin-react-helmet"]
+  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-postcss"]
 };
