@@ -1,4 +1,5 @@
-import React, { Fragment } from "react";
+import React from "react";
+import { Helmet } from "react-helmet";
 import ursaImage from "../images/icon.png";
 
 const Hero = () => {
@@ -61,35 +62,35 @@ const Hero = () => {
                   Coming soon
                 </span>
                 <span className="mt-1 block text-4xl tracking-tight font-extrabold">
-                  Growing the berachain ecosystem.
+                  Growing the Berachain ecosystem.
                 </span>
               </h1>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 Ursadom Labs is an investment firm focused on onboarding and
-                incubating protocols launching on{" "}
+                incubating protocols on{" "}
                 <a
                   href="https://berachain.com"
                   target="_blank"
                   className="underline hover:no-underline"
                 >
-                  berachain
+                  Berachain
                 </a>
                 .
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                We believe berachain and the surrounding ecosystem will pave the
+                We believe Berachain and the surrounding ecosystem will pave the
                 way for innovation in DeFi and Web3. We're deploying up to $5M
-                annually to make this dream a reality.
+                annually to make this vision a reality.
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
                 We prefer to back projects at the earliest stages of formation.
                 Our check sizes range from $25K to $1M.
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Our partners have helped build Olympus, Temple, Rome, and other
+                Our partners helped build Olympus, Temple, Rome, and other
                 popular protocols. We have top technical, operational, and legal
-                talent on the team, ready to do whatever it takes to help
-                projects reach their full potential.
+                talent on the team, ready to do whatever it takes to help a
+                project reach its full potential.
               </p>
               <a
                 type="button"
@@ -195,6 +196,9 @@ function Footer() {
 const HomePage = () => {
   return (
     <div>
+      <Helmet>
+        <title>Ursadom Labs</title>
+      </Helmet>
       <Hero />
       <Footer />
     </div>

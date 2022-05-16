@@ -1,7 +1,11 @@
 module.exports = {
   siteMetadata: {
-    title: `Ursa Ventures`,
-    siteUrl: `https://www.yourdomain.tld`
+    title: `Ursadom Labs`,
+    siteUrl: `https://ursadomlabs.io`,
   },
-  plugins: ["gatsby-plugin-react-helmet", "gatsby-plugin-postcss"]
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-postcss",
+    "gatsby-plugin-react-helmet",
+  ],
 };
