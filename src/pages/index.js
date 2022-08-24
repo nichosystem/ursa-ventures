@@ -87,7 +87,7 @@ const Hero = () => {
                 Our check sizes range from $25K to $1M.
               </p>
               <p className="mt-3 text-base text-gray-500 sm:mt-5 sm:text-xl lg:text-lg xl:text-xl">
-                Our partners helped build Olympus, Temple, Rome, and other
+                Our partners helped build Olympus, Temple, Klima, and other
                 popular protocols. We have top technical, operational, and legal
                 talent on the team, ready to do whatever it takes to help a
                 project reach its full potential.
